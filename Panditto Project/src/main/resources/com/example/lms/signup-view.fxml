@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane onMouseClicked="#RemovingSuccessLabel" prefHeight="850.0" prefWidth="1450.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lms.SignupController">
+   <children>
+      <AnchorPane layoutX="718.0" layoutY="-1.0" prefHeight="850.0" prefWidth="725.0" style="-fx-background-color: #ffffff;">
+         <children>
+                           <Label layoutX="95.0" layoutY="107.0" prefHeight="90.0" prefWidth="552.0" text="Create an Account">
+                              <font>
+                                 <Font name="Ebrima Bold" size="64.0" />
+                              </font>
+                           </Label>
+            <Label layoutX="225.0" layoutY="190.0" textFill="#f4f4f4" />
+            <TextField fx:id="FirstNameField" layoutX="88.0" layoutY="292.0" prefHeight="54.0" prefWidth="262.0" promptText="First Name" style="-fx-background-color: #EEEEEE; -fx-prompt-text-fill: #797979; -fx-background-radius: 0;">
+               <font>
+                  <Font size="16.0" />
+               </font></TextField>
+            <Button layoutX="90.0" layoutY="622.0" mnemonicParsing="false" onAction="#SignupAction" prefHeight="54.0" prefWidth="552.0" style="-fx-background-color: #fdc339;" text="SIGN UP" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <TextField fx:id="LastNameField" layoutX="380.0" layoutY="292.0" prefHeight="54.0" prefWidth="262.0" promptText="Last Name" style="-fx-background-color: #EEEEEE; -fx-prompt-text-fill: #797979; -fx-background-radius: 0;">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="EmailField" layoutX="90.0" layoutY="377.0" prefHeight="54.0" prefWidth="552.0" promptText="Email Address" style="-fx-background-color: #EEEEEE; -fx-prompt-text-fill: #797979; -fx-background-radius: 0;">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="UserNameField" layoutX="90.0" layoutY="457.0" prefHeight="54.0" prefWidth="552.0" promptText="Username" style="-fx-background-color: #EEEEEE; -fx-prompt-text-fill: #797979; -fx-background-radius: 0;">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <ImageView fitHeight="31.0" fitWidth="29.0" layoutX="306.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Pictures/user%20(2).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="29.0" layoutX="597.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Pictures/user%20(2).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="29.0" layoutX="597.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Pictures/user%20(2).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="29.0" layoutX="597.0" layoutY="390.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Pictures/email%20(2).png" />
+               </image>
+            </ImageView>
+            <PasswordField fx:id="SPasswordField" layoutX="91.0" layoutY="540.0" prefHeight="54.0" prefWidth="552.0" promptText="Password" style="-fx-background-color: #EEEEEE; -fx-prompt-text-fill: #797979; -fx-background-radius: 0;">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </PasswordField>
+            <ImageView fitHeight="31.0" fitWidth="29.0" layoutX="597.0" layoutY="553.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Pictures/secured-lock.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="90.0" layoutY="698.0" prefHeight="30.0" prefWidth="194.0" text="Already Have an Account?" textFill="#131313">
+               <font>
+                  <Font name="Ebrima" size="16.0" />
+               </font>
+            </Label>
+            <Button layoutX="281.0" layoutY="691.0" mnemonicParsing="false" onAction="#SignuptoLoginAction" prefHeight="39.0" prefWidth="86.0" style="-fx-background-color: #ffffff;" text="Login" textFill="#fdc339">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="125.0" layoutY="51.0" mnemonicParsing="false" onAction="#SignuptoHomeAction" prefHeight="40.0" prefWidth="143.0" style="-fx-background-color: #ffffff;" text="Back to Home" textFill="#fdc339">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <ImageView fitHeight="40.0" fitWidth="29.0" layoutX="96.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Pictures/lkeft-arrow.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="SuccessSigninLabel" alignment="CENTER" layoutX="93.0" layoutY="749.0" prefHeight="54.0" prefWidth="552.0" textFill="#1cc153">
+               <font>
+                  <Font name="Ebrima Bold" size="20.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <ImageView fitHeight="905.0" fitWidth="754.0" layoutX="-28.0" layoutY="-55.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Pictures/Panditto-logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

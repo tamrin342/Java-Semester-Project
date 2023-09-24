@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="2200.0" prefWidth="1450.0" style="-fx-background-color: #ffffff;" stylesheets="@HomeStyle.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lms.Aboutus2Controller">
+    <children>
+        <Pane prefHeight="100.0" prefWidth="1450.0">
+            <children>
+                <ImageView fitHeight="67.0" fitWidth="253.0" layoutX="79.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../Pictures/Panditto-logo3.png" />
+                    </image>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </ImageView>
+                <Button layoutX="415.0" layoutY="23.0" mnemonicParsing="false" onAction="#Aboutus2toHome2Action" prefHeight="44.0" prefWidth="86.0" style="-fx-background-color: #ffffff;" styleClass="menuItem" text="Home" textFill="#005380">
+                    <font>
+                        <Font name="Ebrima Bold" size="20.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button layoutX="525.0" layoutY="26.0" mnemonicParsing="false" onAction="#Aboutus2toCourse2Action" prefHeight="39.0" prefWidth="101.0" style="-fx-background-color: #ffffff;" styleClass="menuItem" text="Courses" textFill="#005380">
+                    <font>
+                        <Font name="Ebrima Bold" size="20.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button layoutX="648.0" layoutY="26.0" mnemonicParsing="false" onAction="#Abouttus2toMentors2Action" prefHeight="39.0" prefWidth="108.0" style="-fx-background-color: #ffffff;" styleClass="menuItem" text="Mentors" textFill="#005380">
+                    <font>
+                        <Font name="Ebrima Bold" size="20.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button layoutX="773.0" layoutY="24.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="130.0" style="-fx-background-color: #ffffff;" styleClass="menuItem" text="About Us" textFill="#fdc339">
+                    <font>
+                        <Font name="Ebrima Bold" size="20.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <ImageView fitHeight="44.0" fitWidth="50.0" layoutX="1019.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../Pictures/profile-user-yellow.png" />
+                    </image>
+                </ImageView>
+                <Button layoutX="1063.0" layoutY="24.0" mnemonicParsing="false" onAction="#Aboutus2toProfileAction" prefHeight="44.0" prefWidth="101.0" style="-fx-background-color: #ffffff;" styleClass="menuItem" text="Profile" textFill="#005380">
+                    <font>
+                        <Font name="Ebrima Bold" size="20.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                            <Button layoutX="1250.0" layoutY="24.0" mnemonicParsing="false" onAction="#Aboutus2LogoutAction" prefHeight="44.0" prefWidth="108.0" style="-fx-background-color: #ffffff;" styleClass="menuItem" text="Log Out" textFill="#005380">
+                               <font>
+                                  <Font name="Ebrima Bold" size="20.0" />
+                               </font>
+                               <cursor>
+                                  <Cursor fx:constant="HAND" />
+                               </cursor>
+                            </Button>
+            <Button layoutX="1155.0" layoutY="24.0" mnemonicParsing="false" onAction="#Aboutus2toCartAction" prefHeight="44.0" prefWidth="108.0" style="-fx-background-color: #ffffff;" styleClass="menuItem" text="Cart" textFill="#005380">
+               <font>
+                  <Font name="Ebrima Bold" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            </children>
+        </Pane>
+        <ScrollPane layoutY="100.0" prefHeight="3278.0" prefWidth="1482.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-32.0">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="5845.0" prefWidth="1450.0">
+                    <children>
+                        <Pane prefHeight="365.0" prefWidth="1450.0" style="-fx-background-color: #fdc339;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                            <children>
+                                <Label layoutX="589.0" layoutY="83.0" prefHeight="89.0" prefWidth="280.0" text="About Us">
+                                    <font>
+                                        <Font name="Ebrima Bold" size="64.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="447.0" layoutY="210.0" prefHeight="30.0" prefWidth="557.0" text="At Panditto, we are passionate about revolutionizing education">
+                                    <font>
+                                        <Font name="Ebrima" size="20.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="478.0" layoutY="240.0" prefHeight="30.0" prefWidth="494.0" text="and empowering individuals to reach their full potential.">
+                                    <font>
+                                        <Font name="Ebrima" size="20.0" />
+                                    </font>
+                                </Label>
+                            </children></Pane>
+                        <Pane layoutY="366.0" prefHeight="2409.0" prefWidth="1450.0" style="-fx-background-color: #ffffff;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                            <children>
+                                <ImageView fitHeight="887.0" fitWidth="1450.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../../Pictures/about-us-bge.jpg" />
+                                    </image></ImageView>
+                                <Label layoutX="225.0" layoutY="267.0" prefHeight="86.0" prefWidth="1025.0" text="Start your learning journey today!" textFill="WHITE">
+                                    <font>
+                                        <Font name="Ebrima Bold" size="64.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="255.0" layoutY="345.0" prefHeight="86.0" prefWidth="953.0" text="Enroll now in our online course." textFill="WHITE">
+                                    <font>
+                                        <Font name="Ebrima Bold" size="64.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="301.0" layoutY="465.0" prefHeight="42.0" prefWidth="873.0" text="We bring the right people together to challenge established thinking and drive transform in 2023" textFill="WHITE">
+                                    <font>
+                                        <Font name="Ebrima" size="20.0" />
+                                    </font>
+                                </Label>
+                                <Button layoutX="667.0" layoutY="544.0" mnemonicParsing="false" onAction="#Aboutus2toCourse2Action" prefHeight="52.0" prefWidth="154.0" styleClass="submitbutton" text="Explore" textFill="WHITE">
+                                    <font>
+                                        <Font name="Ebrima Bold" size="20.0" />
+                                    </font>
+                                    <cursor>
+                                        <Cursor fx:constant="HAND" />
+                                    </cursor>
+                                </Button>
+                                <ImageView fitHeight="560.0" fitWidth="559.0" layoutX="806.0" layoutY="1011.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../../Pictures/about-us1.jpg" />
+                                    </image>
+                                </ImageView>
+                                <Label layoutX="80.0" layoutY="1007.0" prefHeight="57.0" prefWidth="501.0" text="Meet The Owner">
+                                    <font>
+                                        <Font name="Ebrima Bold" size="64.0" />
+                                    </font>
+                                </Label>
+                                <ImageView fitHeight="49.0" fitWidth="57.0" layoutX="275.0" layoutY="1129.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../../Pictures/left-quote.png" />
+                                    </image>
+                                </ImageView>
+                                <Label layoutX="80.0" layoutY="1230.0" prefHeight="30.0" prefWidth="567.0" text="As the owners of this platform, we are dedicated to providing a">
+                                    <font>
+                                        <Font name="Ebrima" size="20.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="80.0" layoutY="1260.0" prefHeight="30.0" prefWidth="648.0" text="comprehensive and enriching online learning experience for individuals">
+                                    <font>
+                                        <Font name="Ebrima" size="20.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="80.0" layoutY="1290.0" prefHeight="30.0" prefWidth="648.0" text="of all backgrounds and interests. We believe that education should be">
+                                    <font>
+                                        <Font name="Ebrima" size="20.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="80.0" layoutY="1320.0" prefHeight="30.0" prefWidth="634.0" text="accessible to everyone, regardless of their location or schedule">
+                                    <font>
+                                        <Font name="Ebrima" size="20.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="80.0" layoutY="1350.0" prefHeight="30.0" prefWidth="651.0" text="constraints. With our platform, you can expand your knowledge, acquire">
+                                    <font>
+                                        <Font name="Ebrima" size="20.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="79.0" layoutY="1380.0" prefHeight="30.0" prefWidth="688.0" text="new skills, and embark on a journey of lifelong learning from the comfort">
+                                    <font>
+                                        <Font name="Ebrima" size="20.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="79.0" layoutY="1410.0" prefHeight="30.0" prefWidth="658.0" text="of your own home.">
+                                    <font>
+                                        <Font name="Ebrima" size="20.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="79.0" layoutY="1478.0" prefHeight="30.0" prefWidth="658.0" text="Tarif Ishraq" textFill="#404040">
+                                    <font>
+                                        <Font name="Ebrima Bold" size="27.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="80.0" layoutY="1517.0" prefHeight="30.0" prefWidth="658.0" text="Founder of Panditto">
+                                    <font>
+                                        <Font name="Ebrima" size="19.0" />
+                                    </font>
+                                </Label>
+                                <ImageView fitHeight="560.0" fitWidth="559.0" layoutX="79.0" layoutY="1744.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../../Pictures/menotrs-about-us.jpg" />
+                                    </image>
+                                </ImageView>
+                                <Label layoutX="738.0" layoutY="1769.0" prefHeight="85.0" prefWidth="667.0" text="Come Teach with Us">
+                                    <font>
+                                        <Font name="Ebrima Bold" size="64.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="738.0" layoutY="1846.0" prefHeight="85.0" prefWidth="667.0" text="and Become an">
+                                    <font>
+                                        <Font name="Ebrima Bold" size="64.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="738.0" layoutY="1924.0" prefHeight="85.0" prefWidth="667.0" text="Instructor Today">
+                                    <font>
+                                        <Font name="Ebrima Bold" size="64.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="737.0" layoutY="2056.0" prefHeight="30.0" prefWidth="612.0" text="Are you passionate about sharing your knowledge and expertise? ">
+                                    <font>
+                                        <Font name="Ebrima" size="20.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="737.0" layoutY="2086.0" prefHeight="30.0" prefWidth="612.0" text="Join us as an instructor and become part of our dynamic online">
+                                    <font>
+                                        <Font name="Ebrima" size="20.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="737.0" layoutY="2116.0" prefHeight="30.0" prefWidth="612.0" text="teaching community!">
+                                    <font>
+                                        <Font name="Ebrima" size="20.0" />
+                                    </font>
+                                </Label>
+                                <Button layoutX="737.0" layoutY="2188.0" mnemonicParsing="false" onAction="#Abouttus2toMentors2Action" prefHeight="52.0" prefWidth="184.0" text="Our Mentors" textFill="WHITE">
+                                    <font>
+                                        <Font name="Ebrima Bold" size="20.0" />
+                                    </font>
+                                    <cursor>
+                                        <Cursor fx:constant="HAND" />
+                                    </cursor>
+                                </Button>
+                            </children></Pane>
+                        <Pane layoutY="2775.0" prefHeight="504.0" prefWidth="200.0" style="-fx-background-color: #005380;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                            <children>
+                                <ImageView fitHeight="70.0" fitWidth="271.0" layoutX="83.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../../Pictures/Panditto-logo-footer.png" />
+                                    </image></ImageView>
+                                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="88.0" layoutY="176.0" prefHeight="24.0" prefWidth="130.0" text="Top Categories" textAlignment="CENTER" textFill="WHITE">
+                                    <font>
+                                        <Font name="Ebrima Bold" size="18.0" />
+                                    </font>
+                                </Label>
+                                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="88.0" layoutY="225.0" prefHeight="27.0" prefWidth="86.0" text="Academics" textAlignment="CENTER" textFill="WHITE">
+                                    <font>
+                                        <Font name="Ebrima" size="18.0" />
+                                    </font>
+                                </Label>
+                                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="88.0" layoutY="271.0" prefHeight="27.0" prefWidth="188.0" text="Design &amp; Development" textAlignment="CENTER" textFill="WHITE">
+                                    <font>
+                                        <Font name="Ebrima" size="18.0" />
+                                    </font>
+                                </Label>
+                                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="91.0" layoutY="314.0" prefHeight="27.0" prefWidth="195.0" text="SEO &amp; Digital Marketing" textAlignment="CENTER" textFill="WHITE">
+                                    <font>
+                                        <Font name="Ebrima" size="18.0" />
+                                    </font>
+                                </Label>
+                                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="544.0" layoutY="86.0" prefHeight="45.0" prefWidth="200.0" text="Useful Links" textAlignment="CENTER" textFill="WHITE">
+                                    <font>
+                                        <Font name="Ebrima Bold" size="35.0" />
+                                    </font>
+                                </Label>
+                                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="905.0" layoutY="87.0" prefHeight="52.0" prefWidth="465.0" text="Join Our Community Today!" textAlignment="CENTER" textFill="WHITE">
+                                    <font>
+                                        <Font name="Ebrima Bold" size="35.0" />
+                                    </font>
+                                </Label>
+                                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="905.0" layoutY="160.0" prefHeight="27.0" prefWidth="351.0" text="Step into a world of endless opportunities - " textAlignment="CENTER" textFill="WHITE">
+                                    <font>
+                                        <Font name="Ebrima" size="18.0" />
+                                    </font>
+                                </Label>
+                                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="905.0" layoutY="187.0" prefHeight="27.0" prefWidth="161.0" text="sign up and explore." textAlignment="CENTER" textFill="WHITE">
+                                    <font>
+                                        <Font name="Ebrima" size="18.0" />
+                                    </font>
+                                </Label>
+                                <TextField layoutX="905.0" layoutY="239.0" prefHeight="52.0" prefWidth="292.0" promptText="Submit Your Email Address" style="-fx-background-color: #ffffff; -fx-background-radius: 0; -fx-prompt-text-fill: #B6C1C4;">
+                                    <font>
+                                        <Font name="Ebrima" size="17.0" />
+                                    </font>
+                                </TextField>
+                                <Button layoutX="1206.0" layoutY="239.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="163.0" styleClass="submitbutton" textFill="WHITE">
+                                    <font>
+                                        <Font name="Ebrima Bold" size="20.0" />
+                                    </font>
+                                    <cursor>
+                                        <Cursor fx:constant="HAND" />
+                                    </cursor>
+                                </Button>
+                                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="1231.0" layoutY="255.0" prefHeight="26.0" prefWidth="67.0" text="Submit" textAlignment="CENTER" textFill="WHITE">
+                                    <font>
+                                        <Font name="Ebrima Bold" size="18.0" />
+                                    </font>
+                                    <cursor>
+                                        <Cursor fx:constant="HAND" />
+                                    </cursor>
+                                </Label>
+                                <ImageView fitHeight="31.0" fitWidth="29.0" layoutX="1310.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../../Pictures/right-arrow-white.png" />
+                                    </image>
+                                    <cursor>
+                                        <Cursor fx:constant="HAND" />
+                                    </cursor>
+                                </ImageView>
+                                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="441.0" layoutY="439.0" prefHeight="27.0" prefWidth="346.0" text="©2023 | Panditto | All Rights Reserved" textAlignment="CENTER" textFill="WHITE">
+                                    <font>
+                                        <Font name="Ebrima" size="15.0" />
+                                    </font>
+                                </Label>
+                                <ImageView fitHeight="44.0" fitWidth="36.0" layoutX="905.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../../Pictures/social-3.png" />
+                                    </image>
+                                </ImageView>
+                                <ImageView fitHeight="44.0" fitWidth="36.0" layoutX="958.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../../Pictures/social-2.png" />
+                                    </image>
+                                </ImageView>
+                                <ImageView fitHeight="44.0" fitWidth="36.0" layoutX="1015.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../../Pictures/social-1.png" />
+                                    </image>
+                                </ImageView>
+                                <Line endX="1174.7999267578125" layoutX="190.0" layoutY="401.0" startX="-100.0" stroke="#a1a1a1" strokeWidth="2.0" />
+                                <Button layoutX="538.0" layoutY="168.0" mnemonicParsing="false" onAction="#Aboutus2toHome2Action" styleClass="menuItem" text="Home" textFill="WHITE">
+                                    <font>
+                                        <Font name="Ebrima" size="18.0" />
+                                    </font>
+                                    <cursor>
+                                        <Cursor fx:constant="HAND" />
+                                    </cursor>
+                                </Button>
+                                <Button layoutX="538.0" layoutY="214.0" mnemonicParsing="false" onAction="#Aboutus2toCourse2Action" styleClass="menuItem" text="Courses" textFill="WHITE">
+                                    <font>
+                                        <Font name="Ebrima" size="18.0" />
+                                    </font>
+                                    <cursor>
+                                        <Cursor fx:constant="HAND" />
+                                    </cursor>
+                                </Button>
+                                <Button layoutX="538.0" layoutY="258.0" mnemonicParsing="false" onAction="#Abouttus2toMentors2Action" styleClass="menuItem" text="Mentors" textFill="WHITE">
+                                    <font>
+                                        <Font name="Ebrima" size="18.0" />
+                                    </font>
+                                    <cursor>
+                                        <Cursor fx:constant="HAND" />
+                                    </cursor>
+                                </Button>
+                                <Button layoutX="538.0" layoutY="304.0" mnemonicParsing="false" styleClass="menuItem" text="About Us" textFill="WHITE">
+                                    <font>
+                                        <Font name="Ebrima" size="18.0" />
+                                    </font>
+                                    <cursor>
+                                        <Cursor fx:constant="HAND" />
+                                    </cursor>
+                                </Button>
+                            </children></Pane>
+                    </children></AnchorPane>
+            </content>
+        </ScrollPane>
+    </children>
+</AnchorPane>
